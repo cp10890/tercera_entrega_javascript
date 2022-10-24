@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./css/style.css" />
+        <title>Proyecto final JS - Convertidor de unidades</title>
+    </head>
+    <body>
+        <div class ="container">
+            <h1>
+                Convertidor de Unidades
+            </h1>
+            <div id="category_row" class="categories">
+                <h2>
+                    Seleccione el tipo de unidad a convertir:
+                </h2>
+                <select name="categories_menu" id="categories_list">
+                </select>
+            </div>
+            <div class="converter_input">
+                <input type="text" class="onlynumbers" name="input_value" id="input_value">
+                <select name="input_unit_menu" id="input_list">
+                </select>
+            </div>
+            <div class="equal_symbol">
+                <p>=</p>
+            </div>
+            <div class="converter_output">
+                <input type="text" class="onlynumbers" name="output_value" id="output_value">
+                <select name="output_unit_menu" id="output_list">
+                </select>
+            </div>
+            <div class="convertBtn">
+                <input type="button" value="convertir" id="convertBtn">
+            </div>
+            <div class="check_datos">
+                <input type="checkbox" name="datos" id="datos">Desea que guardemos los datos de su conversion?
+            </div>
+        </div>
+        <script src="./js/script.js"></script>
+    </body>
+</html>
